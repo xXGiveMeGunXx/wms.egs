@@ -35,7 +35,7 @@ $ apidoc -i src/ -o doc/
 
 ~~~properties
 #zip download url
-apiURL=https://kubota-wms.egyun.com.cn/pda/api/Interface/DownloadInterfaceData?tocken=16fa8573a4dbb5fa3e9461e68369bf33
+apiURL=https://kubota-wms.egyun.com.cn/pda/api/Interface/DownloadInterfaceData?tocken=************
 outputPath=c:/local_data/
 ~~~
 
