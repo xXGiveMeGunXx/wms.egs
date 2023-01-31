@@ -48,27 +48,29 @@ outputPath=c:/local_data/
 |   +-- StockSum_20230131_10.json
 ```
 
+### JSON文件内容
 
-<table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th> <th>最低版本</th></tr></thead> 
+<table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th></tr></thead> 
 <tbody>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_STOCK_INOUT_NO</td> <td>string</td> <td>设备品牌</td> <td><a href="../../../framework/compatibility.html">1.5.0</a></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_DETAIL_NO</td> <td>string</td> <td>设备型号。新机型刚推出一段时间会显示unknown，微信会尽快进行适配。</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>I_INOUT_TIME</td> <td>number</td> <td>设备像素比</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_CD</td> <td>number</td> <td>屏幕宽度，单位px</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_NAME</td> <td>number</td> <td>屏幕高度，单位px</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ACC</td> <td>number</td> <td>可使用窗口宽度，单位px</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_KKONAY</td> <td>number</td> <td>可使用窗口高度，单位px</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_TAX_KB</td> <td>number</td> <td>状态栏的高度，单位px</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_REASON</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr> 
-<tr><td><i class="toggle-children-table"></i></td> <td>I_QTY</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_REMARK_D</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO2</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO2</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_ID</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_DATE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_ID</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_DATE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_CODE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_STOCK_INOUT_NO</td> <td>string</td> <td>入出库单号</td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_DETAIL_NO</td> <td>number</td> <td>入出库单明细NO</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_INOUT_TIME</td> <td>date</td> <td>入出库时间</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_CD</td> <td>string</td> <td>品番</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_NAME</td> <td>string</td> <td>品名</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ACC</td> <td>number</td> <td>ACC</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_KKONAY</td> <td>number</td> <td>加工内容</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_TAX_KB</td> <td>string</td> <td>保税区分（Y：保税，N：课税）</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_REASON</td> <td>string</td> <td>入出库理由 （区分值一览）</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_QTY</td> <td>number</td> <td>数量</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_REMARK_D</td> <td>string</td> <td>明细备注</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO</td> <td>string</td> <td>相关单据号</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO</td> <td>string</td> <td>相关单据明细号</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO2</td> <td>string</td> <td>相关单据号2</td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO2</td> <td>string</td> <td>相关单据明细号2</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_ID</td> <td>string</td> <td></td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_DATE</td> <td>date</td> <td></td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_ID</td> <td>string</td> <td></td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_DATE</td> <td>date</td> <td></td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_CODE</td> <td>string</td> <td>仓库编号(区分值：01）</td> </tr>
 </tbody>
 </table>
