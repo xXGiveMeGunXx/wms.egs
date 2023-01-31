@@ -39,4 +39,11 @@ apiURL=https://kubota-wms.egyun.com.cn/pda/api/Interface/DownloadInterfaceData?t
 outputPath=c:/local_data/
 ~~~
 
+取得文件包示例:
 
+```
++-- wmszip_xxxxxxxxxxxx.zip
+|   +-- StockIn_20230131_10.json
+|   +-- StockOut_20230131_10.json
+|   +-- StockSum_20230131_10.json
+```
