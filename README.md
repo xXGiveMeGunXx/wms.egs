@@ -50,6 +50,7 @@ outputPath=c:/local_data/
 
 ### JSON文件内容
 
+▼StockIn/StockOut文件内容
 <table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th></tr></thead> 
 <tbody>
 <tr><td><i class="toggle-children-table"></i></td> <td>I_STOCK_INOUT_NO</td> <td>string</td> <td>入出库单号</td></tr> 
@@ -75,7 +76,7 @@ outputPath=c:/local_data/
 </tbody>
 </table>
 
-
+▼StockSum文件内容
 <table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th></tr></thead> 
 <tbody>
 <tr><td><i class="toggle-children-table"></i></td> <td>I_WH_NO</td> <td>string</td> <td>仓库编号</td></tr> 
