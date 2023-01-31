@@ -49,4 +49,26 @@ outputPath=c:/local_data/
 ```
 
 
-<table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th> <th>最低版本</th></tr></thead> <tbody><tr><td><i class="toggle-children-table"></i></td> <td>brand</td> <td>string</td> <td>设备品牌</td> <td><a href="../../../framework/compatibility.html">1.5.0</a></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>model</td> <td>string</td> <td>设备型号。新机型刚推出一段时间会显示unknown，微信会尽快进行适配。</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>pixelRatio</td> <td>number</td> <td>设备像素比</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>screenWidth</td> <td>number</td> <td>屏幕宽度，单位px</td> <td><a href="../../../framework/compatibility.html">1.1.0</a></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>screenHeight</td> <td>number</td> <td>屏幕高度，单位px</td> <td><a href="../../../framework/compatibility.html">1.1.0</a></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>windowWidth</td> <td>number</td> <td>可使用窗口宽度，单位px</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>windowHeight</td> <td>number</td> <td>可使用窗口高度，单位px</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>statusBarHeight</td> <td>number</td> <td>状态栏的高度，单位px</td> <td><a href="../../../framework/compatibility.html">1.9.0</a></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>language</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr> </tbody></table>
+<table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th> <th>最低版本</th></tr></thead> 
+<tbody>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_STOCK_INOUT_NO</td> <td>string</td> <td>设备品牌</td> <td><a href="../../../framework/compatibility.html">1.5.0</a></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_DETAIL_NO</td> <td>string</td> <td>设备型号。新机型刚推出一段时间会显示unknown，微信会尽快进行适配。</td> <td></td></tr> <tr><td><i class="toggle-children-table"></i></td> <td>I_INOUT_TIME</td> <td>number</td> <td>设备像素比</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_CD</td> <td>number</td> <td>屏幕宽度，单位px</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_NAME</td> <td>number</td> <td>屏幕高度，单位px</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ACC</td> <td>number</td> <td>可使用窗口宽度，单位px</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_KKONAY</td> <td>number</td> <td>可使用窗口高度，单位px</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_TAX_KB</td> <td>number</td> <td>状态栏的高度，单位px</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_REASON</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_QTY</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_REMARK_D</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_NO2</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ABOUT_RECEIPT_DETAIL_NO2</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_ID</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_DATE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_ID</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_DATE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_CODE</td> <td>string</td> <td>微信设置的语言</td> <td></td></tr>
+</tbody>
+</table>
