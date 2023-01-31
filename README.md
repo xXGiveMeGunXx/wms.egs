@@ -71,6 +71,19 @@ outputPath=c:/local_data/
 <tr><td><i class="toggle-children-table"></i></td> <td>I_ENTRY_DATE</td> <td>date</td> <td></td> </tr>
 <tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_ID</td> <td>string</td> <td></td> </tr>
 <tr><td><i class="toggle-children-table"></i></td> <td>I_UPD_DATE</td> <td>date</td> <td></td> </tr>
-<tr><td><i class="toggle-children-table"></i></td> <td>I_CODE</td> <td>string</td> <td>仓库编号(区分值：01）</td> </tr>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_CODE</td> <td>string</td> <td>仓库编号</td> </tr>
 </tbody>
 </table>
+
+
+<table class="have-children-table"><thead><tr><th></th> <th>属性</th> <th>类型</th> <th>说明</th></tr></thead> 
+<tbody>
+<tr><td><i class="toggle-children-table"></i></td> <td>I_WH_NO</td> <td>string</td> <td>仓库编号</td></tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ITEM_CD</td> <td>string</td> <td>品番</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_ACC</td> <td>number</td> <td>ACC</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_KKONAY</td> <td>number</td> <td>加工内容</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_TAX_KB</td> <td>string</td> <td>保税区分（Y：保税，N：课税）</td> </tr> 
+<tr><td><i class="toggle-children-table"></i></td> <td>I_STOCK_QTY</td> <td>number</td> <td>库存数</td> </tr>
+</tbody>
+</table>
+
